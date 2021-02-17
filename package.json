@@ -5,7 +5,7 @@
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon bot.js"
+    "dev": "nodemon src/bot.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,8 @@
   "dependencies": {
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",
+    "mysql": "^2.18.1",
+    "mysql-connection-pool-manager": "^1.5.9",
     "nodemon": "^2.0.7"
   }
 }
